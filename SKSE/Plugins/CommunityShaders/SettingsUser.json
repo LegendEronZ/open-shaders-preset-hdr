@@ -506,7 +506,7 @@
   "enableHDR": true,
   "hdrAutoDetected": true,
   "hdrPaperWhite": 203,
-  "hdrPeakNits": 530,
+  "hdrPeakNits": 531,
   "hdrUIBrightness": 2.0
  },
  "Hair Specular": {
@@ -530,16 +530,20 @@
  },
  "Horizon Fix": null,
  "Image Based Lighting": {
+  "DALCAmount": 0.0,
   "DALCMode": 1,
-  "DisableInInteriors": false,
+  "DisableInInteriors": true,
   "DisableInLoadingScreen": true,
   "DisableInWorldMap": false,
   "EnableIBL": 1,
+  "EnableInteriorIBL": false,
+  "EnvIBLSaturation": 1.0,
+  "EnvIBLScale": 1.0,
   "ExteriorAmbientFloor": 0.3499999940395355,
   "ExteriorDALCAmount": 0.0,
   "ExteriorEnvIBLSaturation": 1.0,
   "ExteriorEnvIBLScale": 1.0,
-  "ExteriorSkyIBLSaturation": 0.25,
+  "ExteriorSkyIBLSaturation": 0.15000000596046448,
   "ExteriorSkyIBLScale": 0.8999999761581421,
   "FogAmount": 0.30000001192092896,
   "InteriorAmbientFloor": 1.0,
@@ -549,6 +553,8 @@
   "InteriorSkyIBLSaturation": 1.0,
   "InteriorSkyIBLScale": 1.0,
   "PreserveFogLuminance": 1,
+  "SkyIBLSaturation": 0.15000000596046448,
+  "SkyIBLScale": 0.8999999761581421,
   "UseStaticIBL": 1
  },
  "Interior Sun": {
@@ -571,8 +577,8 @@
   "ContactShadowLength": 8.0,
   "ContactShadowMaxDistance": 1024.0,
   "ContactShadowMaxSteps": 4,
-  "ContactShadowMinIntensity": 0.25,
-  "EnableContactShadows": false,
+  "ContactShadowMinIntensity": 0.23999999463558197,
+  "EnableContactShadows": true,
   "EnableParticleContactShadows": false,
   "EnableParticleLights": true,
   "EnableParticleLightsCulling": true,
@@ -623,7 +629,7 @@
   "ShowShadowOverlay": false
  },
  "Linear Lighting": {
-  "ambientMult": 1.149999976158142,
+  "ambientMult": 1.399999976158142,
   "conversionSaturation": 0.8999999761581421,
   "enableACEScg": 1,
   "enableLinearLighting": 1
@@ -635,7 +641,10 @@
    16,
    35
   ],
-  "EffectToggleKey": 106,
+  "EffectToggleKey": [
+   16,
+   106
+  ],
   "Effects11EditorKey": [
    17,
    35
@@ -1041,7 +1050,7 @@
      -1.2999999523162842,
      -0.30000001192092896
     ],
-    "ExposureCompensation": -0.15000000596046448,
+    "ExposureCompensation": -0.10000000149011612,
     "HighPercent": 0.8999999761581421,
     "LowPercent": 0.10000000149011612,
     "PurkinjeMaxEV": -4.0,
@@ -1171,9 +1180,9 @@
     "HaloRadius": 0.5,
     "HaloStrength": 0.20000000298023224,
     "HaloWidth": 0.5,
-    "Intensity": 0.10000000149011612,
+    "Intensity": 0.652999997138977,
     "KernelScale": 0.10000000149011612,
-    "ThresholdEV": 3.0,
+    "ThresholdEV": -2.680000066757202,
     "ThresholdRange": 1.0,
     "Tint": [
      1.0,
@@ -1311,8 +1320,8 @@
  },
  "Rain Refraction": {
   "Enable": true,
-  "MotionStretch": 1.0,
-  "MotionTransparency": 0.9300000071525574
+  "MotionStretch": 2.0,
+  "MotionTransparency": 0.9599999785423279
  },
  "Remote Control": null,
  "RenderDoc": {
@@ -1339,7 +1348,7 @@
   "AORadius": 256.0,
   "BlurRadius": 2.0,
   "DebugUseUnjitteredCameraReconstruction": false,
-  "DepthDisocclusion": 0.10000000149011612,
+  "DepthDisocclusion": 0.09999998658895493,
   "DepthFadeRange": [
    40000.0,
    50000.0
@@ -1348,7 +1357,7 @@
   "EnableAdaptiveSampling": false,
   "EnableBlur": true,
   "EnableExperimentalSpecularGI": false,
-  "EnableGI": true,
+  "EnableGI": false,
   "EnableTemporalDenoiser": true,
   "EnableVanillaSSAO": false,
   "Enabled": true,
@@ -1509,7 +1518,7 @@
  },
  "Unified Water": null,
  "Upscaling": {
-  "dlssgFramesToGenerate": 1,
+  "dlssgFramesToGenerate": 3,
   "enableDLSSFrameGen": false,
   "foliageAlphaTestMipBiasScale": 1.0,
   "foveatedRender": {
@@ -1660,6 +1669,7 @@
    "materialStrength": false,
    "mirrorEyes": false,
    "modelGuidedUpsample": true,
+   "modelPreset": 0,
    "modelScale": 1.0,
    "modelVerify": false,
    "parallelEyes": true,
@@ -1668,6 +1678,7 @@
    "regionGroup": false,
    "regionOfInterest": false,
    "regionOverlay": false,
+   "runtimeVariant": "",
    "sbsEvaluate": false,
    "showMaterialMap": false,
    "skinStructureStrength": -1.0,
@@ -1697,7 +1708,7 @@
   "sharpnessDLSS": 0.0,
   "sharpnessEnabledDLSS": false,
   "sharpnessFSR": 0.699999988079071,
-  "streamlineLogLevel": 0,
+  "streamlineLogLevel": 2,
   "upscaleMethod": 3,
   "upscaleMethodNoDLSS": 2,
   "vrRenderScale": 0.0
@@ -1705,7 +1716,7 @@
  "Vanilla Fresnel": {
   "BaseF0Multiplier": 0.3199999928474426,
   "ComplexMaterialF0Multiplier": 0.9800000190734863,
-  "ConversionMetalness": 0.25,
+  "ConversionMetalness": 0.3499999940395355,
   "CubemapToF0Multiplier": 1.0,
   "Enable": 1,
   "EnableDynamicCubemapsConversion": 1,
@@ -1720,7 +1731,7 @@
   "RoughnessMultiplier": 1.0,
   "SpecularRoughnessBlend": 0.5
  },
- "Version": "2-18-0-0",
+ "Version": "2-19-0-0",
  "Volumetric Lighting": {
   "ExteriorCustomSize": {
    "Depth": 90,

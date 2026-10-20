@@ -359,7 +359,7 @@
                 -1.2999999523162842,
                 -0.30000001192092896
             ],
-            "ExposureCompensation": -0.15000000596046448,
+            "ExposureCompensation": -0.10000000149011612,
             "HighPercent": 0.8999999761581421,
             "LowPercent": 0.10000000149011612,
             "PurkinjeMaxEV": -4.0,
@@ -489,9 +489,9 @@
             "HaloRadius": 0.5,
             "HaloStrength": 0.20000000298023224,
             "HaloWidth": 0.5,
-            "Intensity": 0.10000000149011612,
+            "Intensity": 0.652999997138977,
             "KernelScale": 0.10000000149011612,
-            "ThresholdEV": 3.0,
+            "ThresholdEV": -2.680000066757202,
             "ThresholdRange": 1.0,
             "Tint": [
                 1.0,

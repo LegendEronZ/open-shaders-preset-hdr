@@ -530,11 +530,15 @@
  },
  "Horizon Fix": null,
  "Image Based Lighting": {
+  "DALCAmount": 0.0,
   "DALCMode": 0,
   "DisableInInteriors": true,
   "DisableInLoadingScreen": true,
   "DisableInWorldMap": true,
   "EnableIBL": 0,
+  "EnableInteriorIBL": false,
+  "EnvIBLSaturation": 1.0,
+  "EnvIBLScale": 0.75,
   "ExteriorAmbientFloor": 0.0,
   "ExteriorDALCAmount": 0.0,
   "ExteriorEnvIBLSaturation": 1.0,
@@ -549,6 +553,8 @@
   "InteriorSkyIBLSaturation": 1.0,
   "InteriorSkyIBLScale": 1.5,
   "PreserveFogLuminance": 0,
+  "SkyIBLSaturation": 1.0,
+  "SkyIBLScale": 1.5,
   "UseStaticIBL": 1
  },
  "Interior Sun": {
@@ -984,6 +990,7 @@
    "materialStrength": false,
    "mirrorEyes": false,
    "modelGuidedUpsample": true,
+   "modelPreset": 0,
    "modelScale": 1.0,
    "modelVerify": false,
    "parallelEyes": true,
@@ -992,6 +999,7 @@
    "regionGroup": false,
    "regionOfInterest": false,
    "regionOverlay": false,
+   "runtimeVariant": "",
    "sbsEvaluate": false,
    "showMaterialMap": false,
    "skinStructureStrength": -1.0,
@@ -1044,7 +1052,7 @@
   "RoughnessMultiplier": 1.0,
   "SpecularRoughnessBlend": 1.0
  },
- "Version": "2-18-0-0",
+ "Version": "2-19-0-0",
  "Volumetric Lighting": {
   "ExteriorCustomSize": {
    "Depth": 90,
